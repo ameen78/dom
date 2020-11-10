@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/bg-intro-mobile.png) ;
+    background-size: contain;
+    background-color: rgb(173, 50, 50);
+    font-family: sans-serif;
+    height: 152vh;
+}
+.learn{
+    color: white;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.learn h1 {
+    height: 65px;
+    font-size: 1.3rem;
+}
+.learn h1 span {
+    display: block;
+}
+.learn p {
+    max-width: 85%;
+    align-self: center;
+}
+.try{
+    height: 15vh;
+    text-align: center;
+    color: white;
+    background-color: rgb(31, 31, 104);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 2px 1px  rgb(59, 58, 58) ;
+}
+.try p span{
+     display: block;
+}
+.dom{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info{
+    height: 70vh;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 2px 0px 2px rgb(59, 58, 58);
+}
+.info input{
+    height: 7vh;
+    width: 90%;
+    align-self: center;
+    border-radius: 0.2rem;
+    border: 0.2px solid rgb(138, 127, 127); 
+   
+}
+.info input:hover {
+    border-color: rgb(41, 41, 129);
+}
+.info input span{
+    display: inline;
+}
+.am{
+    padding: 0 0 0 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+#bot{
+    height: 7.5vh;
+    background-color:rgba(6, 141, 6, 0.911);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.arg{
+    height: 7vh;
+
+}
+.agr p{
+    font-size: 10px;
+    color: rgb(121, 105, 105);
+    
+}
+.agr p span{
+    display: block;
+    font-size: 0.7rem;
+    color: rgb(150, 41, 41);
+    font-weight: bold;
+}
+@media only screen and (min-width:700px){
+    body{
+        background-repeat: repeat;
+    }
+  .learn{
+      height: 40vh;
+  }
+  .learn h1{
+      font-size: 1.7rem;
+      height: 10vh;
+  }
+  .learn h1 span{
+      display: inline;
+  }
+  .learn p{
+      font-size: 20px;
+      max-width: 70%;
+  }
+  .try{
+      width: 60%;
+  }
+  .try p {
+      font-size: 1.2rem;
+  }
+  .try p span{
+      display: inline;
+  }
+  .dom{
+      height:110vh
+  }
+  .info{
+      width: 60%;
+  }
+  .agr p , .agr p span{
+      font-size: 13px;
+  }
+}
+@media only screen and (min-width:1024px){
+    body{
+        background: none;
+        background: url(/images/bg-intro-desktop.png) no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 100vh;
+        width: 90%;
+        background-color:  rgb(194, 57, 57) ;
+        display: flex;
+        justify-content: center;
+    }
+    .learn{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 0 0 0 60px;
+    }
+    .learn h1{
+     width: 80%;
+     font-size: 2.4rem;
+     height: 20vh;
+    }
+    .learn p{
+    font-size: 15px;
+    max-width: 80%;
+    line-height: 22px;
+    }
+    .learn p span {
+        display: block;
+    }
+    .dom{
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info{
+       width: 40vw;
+       margin: 15px 0 0 0;
+    }
+    .try{
+        width: 100%;
+        height: 10vh;
+    }
+    .try p{
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width:1440px){
+    body{
+     background-repeat: repeat;
+    }
+    .learn p{
+          font-size: 18px;   
+    }
+    .learn h1{
+        font-size: 3rem;
+        height: 25vh;
+    }
+    .info{
+        width: 31vw;
+    }
+    .try{
+        width: 31vw;
+    }
+}
