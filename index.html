@@ -22,19 +22,20 @@
         <div class="try">
             <p><b>Try it free 7 days</b> then <span>$20/mo.thereafter</span> </p>
         </div>
-        <div class="info" >
-             <input type="text" placeholder="firstname" id="nam" class="am">
-             <input type="text" placeholder="lastname" id="last" class="am">
-             <input type="email" placeholder="email address" id="em" class="am">
-             <input type="password" placeholder="password" id="pass" class="am">
+        <form class="info" action="thank.html" onsubmit="return validation()" >
+             <input type="text" placeholder="firstname" id="nam" class="am" autocomplete="off">
+             <input type="text" placeholder="lastname" id="last" class="am" autocomplete="off">
+             <input type="email" placeholder="email address" id="em" class="am" autocomplete="off">
+             <input type="password" placeholder="password" id="pass" class="am" autocomplete="off">
              <input type="submit" value="CLAIM YOUR FREE TRAIL" id="bot">
              <div class="agr">
                 <p>
                     By clicking the button you are agreeing to our <span>Tearms and services</span>
                 </p>
              </div>
-        </div>
+            </form>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
