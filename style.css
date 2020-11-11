@@ -12,7 +12,7 @@ body{
 }
 .learn{
     color: white;
-    height: 40vh;
+    height: 41vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body{
 }
 .learn h1 {
     height: 65px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .learn h1 span {
     display: block;
